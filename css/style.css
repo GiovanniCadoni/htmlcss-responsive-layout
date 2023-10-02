@@ -74,8 +74,8 @@ body{
 .application-block{
     width: 90%;
     margin: auto;
-    margin-top: 40px;
-    margin-bottom: 100px;
+    margin-top: 50px;
+    margin-bottom: 40px;
     /*DEBUG*/
     border: 2px solid black;
 }
@@ -142,8 +142,8 @@ body{
     .application-block{
         width: 80%;
         margin: auto;
-        margin-top: 40px;
-        margin-bottom: 100px;
+        margin-top: 60px;
+        margin-bottom: 70px;
     }
 
     .application-col-main{
@@ -159,6 +159,62 @@ body{
 /*/DEMO APPLICATION*/
 
 /*PLANNING*/
+.planning-block{
+    width: 100%;
+    background-color: rgb(151 146 228);
+    padding: 25px 0;
+}
+
+.planning-container{
+    width: 90%;
+    margin: auto;
+    padding: 15px 0;
+    /*DEBUG*/
+    border: 2px solid black;
+}
+
+.planning-container .row{
+    flex-direction: column;
+}
+
+.no-card-planning{
+    padding: 15px 0;
+}
+
+.no-card-planning .img-planning{
+   margin-bottom: 15px;
+}
+
+.card-planning{
+    width: 100%;
+    border-radius: 20px;
+    background-color: white;
+    padding: 15px 0;
+}
+
+.card-planning .img-card-planning{
+    margin-bottom: 15px;
+}
+
+@media screen and (min-width: 992px) {
+    .planning-container{
+        width: 60%;
+    }
+
+    .planning-container .row{
+        flex-direction: row;
+    }
+
+    .card-planning{
+        width: calc(100% / 2 - 1rem / 2);
+        align-self: flex-end;
+    }
+
+    .no-card-planning{
+        width: calc(100% / 2 - 1rem / 2);
+    }
+    
+}
 /*/PLANNING*/
 
 /*TESTIMONIALS*/
