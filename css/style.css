@@ -355,7 +355,56 @@ body{
 /*/ABOUT US*/
 
 /*GET STARTED*/
+.started-block{
+    width: 100%;
+    background-color: rgb(151 146 228);
+    padding: 30px 0;
+}
+
+.started-container{
+    width: 90%;
+    margin: auto;
+    /*DEBUG*/
+    border: 2px solid black;
+}
+
+@media screen and (min-width: 768px) {
+    .started-container{
+        width: 60%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .started-container{
+        width: 40%;
+    }
+}
 /*/GET STARTED*/
 
 /*FOOTER*/
+.footer-block{
+    width: 100%;
+    background-color: black;
+    padding: 30px 0;
+    color: white;
+}
+
+.footer-container{
+    width: 90%;
+    margin: auto;
+    /*DEBUG*/
+    border: 2px solid white;
+}
+
+@media screen and (min-width: 768px) {
+    .footer-container{
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .footer-container{
+        width: 30%;
+    }
+}
 /*/FOOTER*/
