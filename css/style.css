@@ -218,6 +218,55 @@ body{
 /*/PLANNING*/
 
 /*TESTIMONIALS*/
+.testimonial-block{
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.content-testimonial{
+    margin-bottom: 20px;
+}
+
+.card-testimonial{
+    width: 100%;
+    background-color: rgb(151 146 228);
+    border-radius: 20px;
+    padding: 10px 10px;
+    margin-bottom: 20px;
+}
+
+.card-testimonial .img-testimonial{
+    margin-bottom: 15px;
+}
+
+.card-testimonial,.row{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+    .card-testimonial,.row{
+        flex-direction: row;
+    }
+
+    .card-testimonial .img-testimonial{
+        margin-bottom: 0;
+        width: 30%;
+    }
+
+    .card-testimonial .text-testimonial{
+        width: calc(70% - 1rem);
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .testimonial-block{
+        width: 80%;
+    }
+}
 /*/TESTIMONIALS*/
 
 /*BENEFITS*/
