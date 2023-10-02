@@ -13,6 +13,14 @@ body{
 }
 
 /*COMMON*/
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.text-align{
+    text-align: center;
+}
 /*/COMMON*/
 
 /*HEADER*/
@@ -24,11 +32,11 @@ body{
 
 .header-container{
     min-height: 80px;
-    width: 100%;
+    width: 90%;
+    margin: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 25px;
 }
 
 .long-menu{
@@ -63,6 +71,91 @@ body{
 /*/HEADER*/
 
 /*DEMO APPLICATION*/
+.application-block{
+    width: 90%;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    /*DEBUG*/
+    border: 2px solid black;
+}
+
+.application-col-main{
+    display: flex;
+    flex-direction: column;
+    padding: 15px 15px;
+    margin-bottom: 1rem;
+    width: 100%;
+    border-radius: 20px;
+    background-color: rgb(181 221 255);
+}
+
+.application-col-second{
+    display: flex;
+    flex-direction: column;
+    padding: 15px 15px;
+    margin-bottom: 1rem;
+    width: 100%;
+    border-radius: 20px;
+    background-color: rgb(181 221 255);
+}
+
+.application-col{
+    display: flex;
+    flex-direction: column;
+    padding: 15px 15px;
+    margin-bottom: 1rem;
+    width: 100%;
+    border-radius: 20px;
+    background-color: rgb(181 221 255);
+}
+
+.img-application{
+    margin-bottom: 15px;
+}
+
+.application-col-main .img-application{
+    margin-bottom: 0;
+    margin-top: 15px;
+}
+
+@media screen and (min-width: 768px) {
+    .application-col{
+        width: calc(100% / 3 - 2rem / 3);
+    }
+
+    .application-col-second{
+        width: calc(100% / 3 - 2rem / 3);
+    }
+
+    .application-col-main{
+        width: calc(100% - 100% / 3 - 1rem / 3);
+        align-items: flex-start;
+    }
+
+    .row{
+        gap: 1rem;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .application-block{
+        width: 80%;
+        margin: auto;
+        margin-top: 40px;
+        margin-bottom: 100px;
+    }
+
+    .application-col-main{
+        flex-direction: row;
+        gap: 3rem;
+        align-items: center;
+    }
+
+    .application-col-main .img-application{
+        margin-top: 0;
+    }
+}
 /*/DEMO APPLICATION*/
 
 /*PLANNING*/
