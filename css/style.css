@@ -46,6 +46,11 @@ body{
     color: white;
 }
 
+.bg-purple{
+    background-color: rgb(151 146 228);
+    color: white;
+}
+
 .margin-bottom-1-5{
     margin-bottom: 1.5rem;
 }
@@ -448,6 +453,36 @@ body{
     width: 100%;
     border-radius: 20px;
     background-color: white;
+    padding: 20px 20px;
+    text-align: left;
+}
+
+.benefits-container h3{
+    font-size: 2rem;
+    color: white;
+}
+
+.card-benefits .number{
+    font-size: 3rem;
+    text-align: left;
+    font-weight: bold;
+    color: rgb(151 146 228);
+}
+
+.card-benefits h4{
+    color: rgb(151 146 228);
+    text-align: left;
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+.card-benefits p{
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.card-benefits a{
+    text-decoration: none;
 }
 
 @media screen and (min-width: 768px) {
