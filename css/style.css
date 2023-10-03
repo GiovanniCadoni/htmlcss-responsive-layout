@@ -175,6 +175,10 @@ body{
     font-size: 1.1rem;
 }
 
+.application-block > .row{
+    align-items: stretch;
+}
+
 @media screen and (min-width: 768px) {
     .application-col{
         width: calc(100% / 3 - 2rem / 3);
@@ -187,6 +191,10 @@ body{
     .application-col-main{
         width: calc(100% - 100% / 3 - 1rem / 3);
         align-items: flex-start;
+    }
+
+    .img-application{
+        width: 280px;
     }
 }
 
@@ -207,6 +215,10 @@ body{
 
     .application-col-main .img-application{
         margin-top: 0;
+    }
+
+    .img-application{
+        width: 1200px;
     }
 }
 /*/DEMO APPLICATION*/
@@ -242,11 +254,47 @@ body{
     width: 100%;
     border-radius: 20px;
     background-color: white;
-    padding: 15px 0;
+    padding: 25px 15px;
 }
 
 .card-planning .img-card-planning{
     margin-bottom: 15px;
+}
+
+.planning-block h3{
+    font-size: 2rem;
+    color: white;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.planning-block p{
+    font-size: 1.2rem;
+    color: white;
+    text-align: left;
+    margin-bottom: 1.5rem;
+}
+
+.text-card-planning h3{
+    font-size: 2rem;
+    color: black;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.text-card-planning p{
+    font-size: 1.2rem;
+    color: black;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.arrow-down{
+    background-color: rgb(151 146 228);
+    font-size: 2rem;
+    padding: 10px 18px;
+    border-radius: 100%;
 }
 
 @media screen and (min-width: 992px) {
@@ -300,6 +348,49 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 25px 25px;
+}
+
+.content-testimonial h4{
+    font-weight: lighter;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.content-testimonial h3{
+    font-size: 2rem;
+    color: rgb(151 146 228);
+    margin-bottom: 30px;
+}
+
+.content-testimonial p{
+    font-size: 1.5rem;
+    margin-bottom: 30px
+}
+
+.img-testimonial img{
+    width: 220px;
+    height: 220px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+.text-testimonial p{
+    text-align: center;
+    color: white;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.text-testimonial div{
+    text-align: center;
+    color: white;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.text-testimonial i{
+    font-size: 1.5rem;
 }
 
 @media screen and (min-width: 768px) {
@@ -315,6 +406,20 @@ body{
     .card-testimonial .text-testimonial{
         width: calc(70% - 1rem);
     }
+
+    .text-testimonial p{
+        text-align: left;
+    }
+
+    .text-testimonial div{
+        text-align: left;
+    }
+
+    .img-testimonial img{
+        width: 180px;
+        height: 180px;
+        border-radius: 100%;
+        object-fit: cover;
 }
 
 @media screen and (min-width: 992px) {
