@@ -16,6 +16,7 @@ body{
 .row{
     display: flex;
     flex-wrap: wrap;
+    gap: 1rem;
 }
 
 .text-align{
@@ -84,7 +85,6 @@ body{
     display: flex;
     flex-direction: column;
     padding: 15px 15px;
-    margin-bottom: 1rem;
     width: 100%;
     border-radius: 20px;
     background-color: rgb(181 221 255);
@@ -94,7 +94,6 @@ body{
     display: flex;
     flex-direction: column;
     padding: 15px 15px;
-    margin-bottom: 1rem;
     width: 100%;
     border-radius: 20px;
     background-color: rgb(181 221 255);
@@ -104,7 +103,6 @@ body{
     display: flex;
     flex-direction: column;
     padding: 15px 15px;
-    margin-bottom: 1rem;
     width: 100%;
     border-radius: 20px;
     background-color: rgb(181 221 255);
@@ -131,10 +129,6 @@ body{
     .application-col-main{
         width: calc(100% - 100% / 3 - 1rem / 3);
         align-items: flex-start;
-    }
-
-    .row{
-        gap: 1rem;
     }
 }
 
@@ -236,7 +230,7 @@ body{
     background-color: rgb(151 146 228);
     border-radius: 20px;
     padding: 10px 10px;
-    margin-bottom: 20px;
+    margin-bottom: 1.5rem;
 }
 
 .card-testimonial .img-testimonial{
