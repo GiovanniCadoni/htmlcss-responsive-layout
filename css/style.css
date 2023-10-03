@@ -522,8 +522,38 @@ body{
     margin-bottom: 25px;
 }
 
+.card-aboutus{
+    padding: 0 28px;
+}
+
 .img-aboutus{
     margin-bottom: 15px;
+}
+
+.img-aboutus img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+
+.aboutus-block h2{
+    color: rgb(151 146 228);
+    font-size: 3rem;
+    margin-bottom: 25px;
+}
+
+.aboutus-block p{
+    margin-bottom: 20px;
+}
+
+.text-aboutus p{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgb(151 146 228);
+}
+
+.text-aboutus span{
+    font-size: 0.7rem;
 }
 
 @media screen and (min-width: 768px) {
@@ -533,6 +563,7 @@ body{
 
     .card-aboutus{
         width: 40%;
+        align-self: flex-start;
     }
 
     .card-aboutus,.row{
