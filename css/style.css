@@ -117,8 +117,6 @@ body{
     margin: auto;
     margin-top: 50px;
     margin-bottom: 40px;
-    /*DEBUG*/
-    border: 2px solid black;
 }
 
 .application-col-main{
@@ -239,8 +237,6 @@ body{
     width: 90%;
     margin: auto;
     padding: 15px 0;
-    /*DEBUG*/
-    border: 2px solid black;
 }
 
 .planning-container .row{
@@ -329,8 +325,6 @@ body{
     margin: auto;
     margin-top: 30px;
     margin-bottom: 40px;
-    /*DEBUG*/
-    border: 2px solid black;
 }
 
 .content-testimonial{
@@ -444,8 +438,6 @@ body{
 .benefits-container{
     width: 90%;
     margin: auto;
-    /*DEBUG*/
-    border: 2px solid black;
 }
 
 .card-benefits{
@@ -514,8 +506,6 @@ body{
     margin-top: 15px;
     margin-bottom: 15px;
     padding: 30px 0;
-    /*DEBUG*/
-    border: 2px solid black;
 }
 
 .content-aboutus{
@@ -588,8 +578,6 @@ body{
 .started-container{
     width: 90%;
     margin: auto;
-    /*DEBUG*/
-    border: 2px solid black;
 }
 
 @media screen and (min-width: 768px) {
@@ -616,8 +604,6 @@ body{
 .footer-container{
     width: 90%;
     margin: auto;
-    /*DEBUG*/
-    border: 2px solid white;
 }
 
 @media screen and (min-width: 768px) {
