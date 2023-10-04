@@ -213,15 +213,16 @@ body{
         flex-direction: row;
         gap: 3rem;
         align-items: center;
-        padding-bottom: 30px;
+        padding-top: 0;
     }
 
     .application-col-main .img-application{
         margin-top: 0;
+        align-self: flex-end;
     }
 
     .img-application{
-        width: 1200px;
+        width: 2000px;
     }
 }
 /*/DEMO APPLICATION*/
