@@ -1,69 +1,70 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-img{
+img {
     max-width: 100%;
     display: block;
 }
 
-body{
+body {
     font-family: 'PT Sans', sans-serif;
 }
 
 /*COMMON*/
-.row{
+.row {
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
 }
 
-.text-align{
+.text-align {
     text-align: center;
 }
 
-.button{
+.button {
     padding: 8px 10px;
     border-radius: 25px;
     border: transparent;
 }
 
-.button-big{
+.button-big {
     padding: 5px 40px;
     border-radius: 25px;
     border: transparent;
 }
 
-.bg-white{
+.bg-white {
     background-color: white;
     color: black;
 }
 
-.bg-blue{
+.bg-blue {
     background-color: rgb(0 132 253);
     color: white;
 }
 
-.bg-purple{
+.bg-purple {
     background-color: rgb(151 146 228);
     color: white;
 }
 
-.margin-bottom-1-5{
+.margin-bottom-1-5 {
     margin-bottom: 1.5rem;
 }
+
 /*/COMMON*/
 
 /*HEADER*/
-.header-block{
+.header-block {
     background-color: rgb(0 132 253);
     min-height: 80px;
     color: white;
 }
 
-.header-container{
+.header-container {
     min-height: 80px;
     width: 90%;
     margin: auto;
@@ -72,54 +73,55 @@ body{
     align-items: center;
 }
 
-.long-menu{
+.long-menu {
     display: none;
 }
 
-.short-menu{
+.short-menu {
     font-size: 1.8rem;
 }
 
-.nav-menu{
+.nav-menu {
     list-style: none;
     display: flex;
     gap: 1.2rem;
 }
 
-.nav-menu a{
+.nav-menu a {
     text-decoration: none;
     color: white;
 }
 
-.header-block .button{
+.header-block .button {
     color: black;
 }
 
 @media screen and (min-width: 992px) {
-    .header-container{
+    .header-container {
         width: 80%;
         margin: auto;
     }
 
-    .short-menu{
+    .short-menu {
         display: none;
     }
 
-    .long-menu{
+    .long-menu {
         display: inline-block;
     }
 }
+
 /*/HEADER*/
 
 /*DEMO APPLICATION*/
-.application-block{
+.application-block {
     width: 90%;
     margin: auto;
     margin-top: 50px;
     margin-bottom: 40px;
 }
 
-.application-col-main{
+.application-col-main {
     display: flex;
     flex-direction: column;
     padding: 30px 30px;
@@ -129,7 +131,7 @@ body{
     background-color: rgb(181 221 255);
 }
 
-.application-col-second{
+.application-col-second {
     display: flex;
     flex-direction: column;
     padding: 30px 30px;
@@ -138,7 +140,7 @@ body{
     background-color: rgb(181 221 255);
 }
 
-.application-col{
+.application-col {
     display: flex;
     flex-direction: column;
     padding: 30px 30px;
@@ -147,144 +149,145 @@ body{
     background-color: rgb(181 221 255);
 }
 
-.img-application{
+.img-application {
     margin-bottom: 15px;
 }
 
-.icon-application{
+.icon-application {
     font-size: 4.5rem;
 }
 
-.application-col-main .img-application{
+.application-col-main .img-application {
     margin-bottom: 0;
     margin-top: 15px;
 }
 
-.application-block h3{
+.application-block h3 {
     color: rgb(10 137 253);
     margin-bottom: 1rem;
     font-size: 1.5rem
 }
 
-.application-block p{
+.application-block p {
     font-weight: bold;
     color: rgb(90 110 127);
 }
 
-.application-block a{
+.application-block a {
     text-decoration: none;
     font-weight: bold;
     color: white;
     font-size: 1.1rem;
 }
 
-.application-block > .row{
+.application-block>.row {
     align-items: stretch;
 }
 
 @media screen and (min-width: 768px) {
-    .application-col{
+    .application-col {
         width: calc(100% / 3 - 2rem / 3);
     }
 
-    .application-col-second{
+    .application-col-second {
         width: calc(100% / 3 - 2rem / 3);
     }
 
-    .application-col-main{
+    .application-col-main {
         width: calc(100% - 100% / 3 - 1rem / 3);
         align-items: flex-start;
     }
 
-    .img-application{
+    .img-application {
         width: 280px;
     }
 }
 
 @media screen and (min-width: 992px) {
-    .application-block{
+    .application-block {
         width: 80%;
         margin: auto;
         margin-top: 60px;
         margin-bottom: 70px;
     }
 
-    .application-col-main{
+    .application-col-main {
         flex-direction: row;
         gap: 3rem;
         align-items: center;
         padding-top: 0;
     }
 
-    .application-col-main .img-application{
+    .application-col-main .img-application {
         margin-top: 0;
         align-self: flex-end;
     }
 
-    .img-application{
+    .img-application {
         width: 2000px;
     }
 }
+
 /*/DEMO APPLICATION*/
 
 /*PLANNING*/
-.planning-block{
+.planning-block {
     width: 100%;
     background-color: rgb(151 146 228);
     padding: 25px 0;
 }
 
-.planning-container{
+.planning-container {
     width: 90%;
     margin: auto;
     padding: 15px 0;
 }
 
-.planning-container .row{
+.planning-container .row {
     flex-direction: column;
 }
 
-.no-card-planning{
+.no-card-planning {
     padding: 15px 0;
 }
 
-.no-card-planning .img-planning{
-   margin-bottom: 15px;
+.no-card-planning .img-planning {
+    margin-bottom: 15px;
 }
 
-.card-planning{
+.card-planning {
     width: 100%;
     border-radius: 20px;
     background-color: white;
     padding: 25px 15px;
 }
 
-.card-planning .img-card-planning{
+.card-planning .img-card-planning {
     margin-bottom: 15px;
 }
 
-.planning-block h3{
+.planning-block h3 {
     font-size: 2rem;
     color: white;
     margin-top: 2rem;
     margin-bottom: 1.5rem;
 }
 
-.planning-block p{
+.planning-block p {
     font-size: 1.2rem;
     color: white;
     text-align: left;
     margin-bottom: 1.5rem;
 }
 
-.text-card-planning h3{
+.text-card-planning h3 {
     font-size: 2rem;
     color: black;
     margin-top: 2rem;
     margin-bottom: 1.5rem;
 }
 
-.text-card-planning p{
+.text-card-planning p {
     font-size: 1.2rem;
     color: black;
     text-align: center;
@@ -292,7 +295,7 @@ body{
     margin-bottom: 1.5rem;
 }
 
-.arrow-down{
+.arrow-down {
     background-color: rgb(151 146 228);
     font-size: 2rem;
     padding: 10px 18px;
@@ -300,39 +303,40 @@ body{
 }
 
 @media screen and (min-width: 992px) {
-    .planning-container{
+    .planning-container {
         width: 60%;
     }
 
-    .planning-container .row{
+    .planning-container .row {
         flex-direction: row;
     }
 
-    .card-planning{
+    .card-planning {
         width: calc(100% / 2 - 1rem / 2);
         align-self: flex-end;
     }
 
-    .no-card-planning{
+    .no-card-planning {
         width: calc(100% / 2 - 1rem / 2);
     }
-    
+
 }
+
 /*/PLANNING*/
 
 /*TESTIMONIALS*/
-.testimonial-block{
+.testimonial-block {
     width: 90%;
     margin: auto;
     margin-top: 30px;
     margin-bottom: 40px;
 }
 
-.content-testimonial{
+.content-testimonial {
     margin-bottom: 20px;
 }
 
-.card-testimonial{
+.card-testimonial {
     width: 100%;
     background-color: rgb(151 146 228);
     border-radius: 20px;
@@ -340,108 +344,113 @@ body{
     margin-bottom: 1.5rem;
 }
 
-.card-testimonial .img-testimonial{
+.card-testimonial .img-testimonial {
     margin-bottom: 15px;
 }
 
-.card-testimonial,.row{
+.card-testimonial,
+.row {
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 25px 25px;
 }
 
-.content-testimonial h4{
+.content-testimonial h4 {
     font-weight: lighter;
     margin-top: 20px;
     margin-bottom: 30px;
 }
 
-.content-testimonial h3{
+.content-testimonial h3 {
     font-size: 2rem;
     color: rgb(151 146 228);
     margin-bottom: 30px;
 }
 
-.content-testimonial p{
+.content-testimonial p {
     font-size: 1.5rem;
     margin-bottom: 30px
 }
 
-.img-testimonial img{
+.img-testimonial img {
     width: 220px;
     height: 220px;
     border-radius: 100%;
     object-fit: cover;
 }
 
-.text-testimonial p{
+.text-testimonial p {
     text-align: center;
     color: white;
     font-size: 1.2rem;
     margin-bottom: 20px;
 }
 
-.text-testimonial div{
+.text-testimonial div {
     text-align: center;
     color: white;
     font-size: 1.4rem;
     font-weight: bold;
 }
 
-.text-testimonial i{
+.text-testimonial i {
     font-size: 1.5rem;
 }
 
 @media screen and (min-width: 768px) {
-    .card-testimonial,.row{
+
+    .card-testimonial,
+    .row {
         flex-direction: row;
     }
 
-    .card-testimonial .img-testimonial{
+    .card-testimonial .img-testimonial {
         margin-bottom: 0;
         width: 30%;
     }
 
-    .card-testimonial .text-testimonial{
+    .card-testimonial .text-testimonial {
         width: calc(70% - 1rem);
     }
 
-    .text-testimonial p{
+    .text-testimonial p {
         text-align: left;
     }
 
-    .text-testimonial div{
+    .text-testimonial div {
         text-align: left;
     }
 
-    .img-testimonial img{
+    .img-testimonial img {
         width: 180px;
         height: 180px;
         border-radius: 100%;
         object-fit: cover;
+    }
 }
 
 @media screen and (min-width: 992px) {
-    .testimonial-block{
+    .testimonial-block {
         width: 80%;
     }
 }
+
 /*/TESTIMONIALS*/
 
 /*BENEFITS*/
-.benefits-block{
+.benefits-block {
     width: 100%;
     background-color: rgb(151 146 228);
     padding: 30px 0;
 }
 
-.benefits-container{
+.benefits-container {
     width: 90%;
     margin: auto;
 }
 
-.card-benefits{
+.card-benefits {
     margin-top: 30px;
     width: 100%;
     border-radius: 20px;
@@ -450,58 +459,59 @@ body{
     text-align: left;
 }
 
-.benefits-container h3{
+.benefits-container h3 {
     font-size: 2rem;
     color: white;
 }
 
-.card-benefits .number{
+.card-benefits .number {
     font-size: 3rem;
     text-align: left;
     font-weight: bold;
     color: rgb(151 146 228);
 }
 
-.card-benefits h4{
+.card-benefits h4 {
     color: rgb(151 146 228);
     text-align: left;
     font-size: 1.2rem;
     margin-bottom: 15px;
 }
 
-.card-benefits p{
+.card-benefits p {
     text-align: left;
     margin-bottom: 20px;
 }
 
-.card-benefits a{
+.card-benefits a {
     text-decoration: none;
 }
 
 @media screen and (min-width: 768px) {
-    .benefits-container .row{
+    .benefits-container .row {
         margin-top: 30px;
     }
-    
-    .card-benefits{
+
+    .card-benefits {
         width: calc(100% / 2 - 1rem / 2);
         margin-top: 0;
     }
 }
 
 @media screen and (min-width: 992px) {
-    .benefits-container{
+    .benefits-container {
         width: 80%;
     }
-    
-    .card-benefits{
+
+    .card-benefits {
         width: calc(100% / 3 - 2rem / 3);
     }
 }
+
 /*/BENEFITS*/
 
 /*ABOUT US*/
-.aboutus-block{
+.aboutus-block {
     width: 90%;
     margin: auto;
     margin-top: 15px;
@@ -509,113 +519,117 @@ body{
     padding: 30px 0;
 }
 
-.content-aboutus{
+.content-aboutus {
     margin-bottom: 25px;
 }
 
-.card-aboutus{
+.card-aboutus {
     padding: 0 28px;
 }
 
-.img-aboutus{
+.img-aboutus {
     margin-bottom: 15px;
 }
 
-.img-aboutus img{
+.img-aboutus img {
     width: 200px;
     height: 200px;
     border-radius: 100%;
 }
 
-.aboutus-block h2{
+.aboutus-block h2 {
     color: rgb(151 146 228);
     font-size: 3rem;
     margin-bottom: 25px;
 }
 
-.aboutus-block p{
+.aboutus-block p {
     margin-bottom: 20px;
 }
 
-.text-aboutus p{
+.text-aboutus p {
     font-size: 1.5rem;
     font-weight: bold;
     color: rgb(151 146 228);
 }
 
-.text-aboutus span{
+.text-aboutus span {
     font-size: 0.7rem;
 }
 
 @media screen and (min-width: 768px) {
-    .content-aboutus{
+    .content-aboutus {
         width: calc(60% - 1rem);
     }
 
-    .card-aboutus{
+    .card-aboutus {
         width: 40%;
         align-self: flex-start;
     }
 
-    .card-aboutus,.row{
+    .card-aboutus,
+    .row {
         margin-top: 0;
     }
 }
 
 @media screen and (min-width: 992px) {
-    .aboutus-block{
+    .aboutus-block {
         width: 75%;
     }
 }
+
 /*/ABOUT US*/
 
 /*GET STARTED*/
-.started-block{
+.started-block {
     width: 100%;
     background-color: rgb(151 146 228);
     padding: 30px 0;
 }
 
-.started-container{
+.started-container {
     width: 90%;
     margin: auto;
 }
 
 @media screen and (min-width: 768px) {
-    .started-container{
+    .started-container {
         width: 60%;
     }
 }
 
 @media screen and (min-width: 992px) {
-    .started-container{
+    .started-container {
         width: 40%;
     }
 }
+
 /*/GET STARTED*/
 
 /*FOOTER*/
-.footer-block{
+.footer-block {
     width: 100%;
     background-color: black;
     padding: 30px 0;
     color: white;
 }
 
-.footer-container{
+.footer-container {
     width: 90%;
     margin: auto;
 }
 
 @media screen and (min-width: 768px) {
-    .footer-container{
+    .footer-container {
         width: 50%;
     }
 }
 
 @media screen and (min-width: 992px) {
-    .footer-container{
+    .footer-container {
         width: 30%;
     }
 }
+
 /*/FOOTER*/
